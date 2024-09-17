@@ -1,0 +1,10 @@
+{
+  "name" : "prestashop_test/gr_reporting",
+  "description": "gr_reporting module",
+  "autoload": {
+    "psr-4": {
+      "gr_reporting\\": "src/"
+    }
+  },
+  "type": "prestashop-module"
+}

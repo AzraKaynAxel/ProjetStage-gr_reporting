@@ -1,0 +1,12 @@
+# modules/gr_reporting/sercvices.yml
+
+services:
+  product_repository:
+    class: \gr_reporting\Service\OrderPaymentError
+    #arguments: [
+     # '@doctrine.dbal.default_connection',
+     # '%database_prefix%'
+    #]
+    #arguments: [
+    #  '%database_prefix%'
+    #]
